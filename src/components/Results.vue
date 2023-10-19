@@ -2,7 +2,7 @@
     <div>
         <h3 class="center">Results</h3>
         <span class="result">Fraction as decimal: <span class="bold">{{ fractionStore.decimal }}</span></span>
-        <span class="result">Fraction as percent: <span class="bold">{{ fractionStore.percent }}</span></span>
+        <span class="result">Fraction as percent: <span class="bold">{{ fractionStore.percent }}%</span></span>
         <div class="result">
             <h4>Fraction as progress</h4>
             <div class="progress">
