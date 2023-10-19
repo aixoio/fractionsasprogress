@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* START COLORS */
+$white: #eee;
+$black: #222;
+$primary: #335ee1;
+$secondary: #aaa;
+/* END COLORS */
+
+body {
+    background-color: $white;
+    color: $black;
+    @media (prefers-color-scheme: dark) {
+        background-color: $black;
+        color: $white;
+    }
+}
+
+.title {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.bold {
+    @apply font-bold
+}
