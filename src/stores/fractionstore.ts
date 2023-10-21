@@ -8,7 +8,7 @@ export const useFractionStore = defineStore("fraction-store", () => {
     const denominator = ref(2)
 
     const decimal = computed(() => {
-        return round(numerator.value / denominator.value, 2)
+        return round(numerator.value / denominator.value, 4)
     })
 
     const percent = computed(() => {
